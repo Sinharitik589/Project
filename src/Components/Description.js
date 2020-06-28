@@ -9,13 +9,12 @@ class Description extends Component {
           style={{
             marginLeft: 20,
             marginTop: 30,
-            fontWeight: "lighter",
           }}
         >
           NIGERIA
         </h2>
         <Divider />
-        <p style={{ fontSize: 22, padding: 15 }}>
+        <p style={{ fontSize: 20, fontStyle: "italic" }}>
           Kobo360, is a privately owned, pan-african technology company
           disrupting and leading African third-party logistics industry. Through
           an all-in-one robust platform that instantly connects cargo owners to

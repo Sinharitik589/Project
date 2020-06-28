@@ -19,12 +19,11 @@ class Header extends Component {
             <div
               style={{
                 textAlign: "center",
-                fontSize: 50,
-                fontWeight: "bolder",
-                fontFamily: "'Abril Fatface', cursive",
+                fontSize: 70,
+                fontWeight: "revert",
               }}
             >
-              KOBO360
+              KOBO 360
             </div>
           </Grid>
           <Grid item xs={3} />
