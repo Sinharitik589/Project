@@ -1,26 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React, { Component } from "react";
+import { Hidden, Divider, Container } from "@material-ui/core";
+import Header from "./Components/Header";
+import Main from "./Components/Main";
+import Footer from "./Components/Footer";
+import Sheader from "./Components/Sheader";
+import Sfooter from "./Components/Sfooter";
+import Description from "./Components/Description";
+import Buttons from "./Components/Buttons";
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Hidden only={"xs"}>
+          <Container>
+            <Header />
+            <Main />
+            <br />
+            <Divider />
+            <Footer />
+          </Container>
+        </Hidden>
+        <Hidden only={["lg", "md", "sm", "xl"]}>
+          <Sheader />
+          <Description />
+          <Buttons />
+          <Sfooter />
+        </Hidden>
+      </div>
+    );
+  }
 }
 
 export default App;
