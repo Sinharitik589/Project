@@ -11,7 +11,6 @@ const Scards = (props) => {
             height: 80,
             paddingTop: 0,
             paddingLeft: 10,
-            paddingBottom: 15,
           }}
         >
           <div
@@ -22,15 +21,20 @@ const Scards = (props) => {
               alignItems: "center",
             }}
           >
-            <img
-              src={props.image}
-              style={{ height: 45, marginTop: 15, marginBottom: 15 }}
-            />
+            <img src={props.image} style={{ height: 60, margin: 10 }} />
           </div>
-          <div style={{ flex: 6 }}>
-            <h3>{props.post}</h3>
-
-            <h5 style={{ fontWeight: "lighter" }}>{props.company}</h5>
+          <div
+            style={{
+              flex: 6,
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+            }}
+          >
+            <div style={{ fontWeight: "bold", fontSize: 20, marginBottom: 5 }}>
+              {props.post}
+            </div>
+            <div>{props.company}</div>
           </div>
         </div>
       </Paper>
