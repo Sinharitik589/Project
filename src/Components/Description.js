@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Divider, Typography } from "@material-ui/core";
+import { Divider, Typography, Container } from "@material-ui/core";
+import Chip from "./Chip";
 
 class Description extends Component {
   render() {
@@ -42,6 +43,19 @@ class Description extends Component {
           the world. The marketplace will effectively eliminate the high cost of
           middlemen for smallholder farmers and significantly increase their
           profits.
+          <br />
+          <br />
+          <span style={{ fontWeight: "bolder", fontSize: 24 }}>
+            Tech Stack:
+          </span>
+          <br />
+          <br />
+          <div style={{ display: "flex", flexWrap: "wrap" }}>
+            <Chip label="SDL" />
+            <Chip label="Mobile Application" />
+            <Chip label="Docker" />
+            <Chip label="Open-Souce Development" />
+          </div>
         </Typography>
       </div>
     );

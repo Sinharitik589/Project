@@ -34,11 +34,22 @@ const Cards = (props) => {
               }}
             >
               <div
-                style={{ fontWeight: "bold", fontSize: 20, marginBottom: 5 }}
+                style={{
+                  fontSize: 20,
+                  marginBottom: 5,
+                  fontFamily: "'Roboto', sans-serif",
+                }}
               >
                 {props.post}
               </div>
-              <div>{props.company}</div>
+              <div
+                style={{
+                  fontFamily: "'Roboto', sans-serif",
+                  fontWeight: "unset",
+                }}
+              >
+                {props.company}
+              </div>
             </div>
           </div>
         }

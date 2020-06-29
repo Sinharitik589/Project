@@ -26,7 +26,7 @@ class Sheader extends Component {
               fontFamily: "'Roboto', sans-serif",
             }}
           >
-            KOBO 360
+            Kobo 360
           </Typography>
         </div>
       </div>

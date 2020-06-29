@@ -12,13 +12,11 @@ class Footer extends Component {
           marginLeft: 0,
           marginRight: 0,
           marginTop: 40,
-
-          backgroundColor: "grey",
-
-          padding: 15,
+          padding: 8,
+          backgroundColor: "#D3D3D3",
         }}
       >
-        <Container>
+        <Container disableGutters>
           <Grid container>
             <Grid item sm={12}>
               <Grid container spacing={1}>

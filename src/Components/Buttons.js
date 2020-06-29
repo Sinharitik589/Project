@@ -1,7 +1,8 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
+import { makeStyles, withStyles } from "@material-ui/core/styles";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import { Button, Paper, Hidden } from "@material-ui/core";
+import { green } from "@material-ui/core/colors";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 const useStyles = makeStyles((theme) => ({
@@ -9,7 +10,15 @@ const useStyles = makeStyles((theme) => ({
     margin: 10,
   },
 }));
-
+const ColorButton = withStyles((theme) => ({
+  root: {
+    color: theme.palette.getContrastText(green[500]),
+    backgroundColor: green[500],
+    "&:hover": {
+      backgroundColor: green[700],
+    },
+  },
+}))(Button);
 const Buttons = () => {
   const classes = useStyles();
 
@@ -35,15 +44,15 @@ const Buttons = () => {
               Get Employee Refferal
             </Button>
 
-            <Button
+            <ColorButton
               variant="contained"
               size="large"
               startIcon={<WhatsAppIcon />}
-              color="secondary"
+              color="primary"
               className={classes.sbutton1}
             >
               Share on whatsapp
-            </Button>
+            </ColorButton>
 
             <Button
               variant="contained"

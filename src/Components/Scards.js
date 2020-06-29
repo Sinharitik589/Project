@@ -31,10 +31,19 @@ const Scards = (props) => {
               justifyContent: "center",
             }}
           >
-            <div style={{ fontWeight: "bold", fontSize: 20, marginBottom: 5 }}>
+            <div
+              style={{
+                fontWeight: "bold",
+                fontSize: 20,
+                marginBottom: 5,
+                fontFamily: "'Roboto', sans-serif",
+              }}
+            >
               {props.post}
             </div>
-            <div>{props.company}</div>
+            <div style={{ fontFamily: "'Roboto', sans-serif" }}>
+              {props.company}
+            </div>
           </div>
         </div>
       </Paper>
