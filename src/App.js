@@ -19,10 +19,12 @@ class App extends Component {
           <Footer />
         </Hidden>
         <Hidden only={["lg", "md", "sm", "xl"]}>
-          <Sheader />
-          <Description />
-          <br />
-          <Buttons />
+          <Container>
+            <Sheader />
+            <Description />
+            <br />
+            <Buttons />
+          </Container>
           <Divider />
           <br />
           <Sfooter />

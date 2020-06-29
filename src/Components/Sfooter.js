@@ -9,7 +9,7 @@ class Sfooter extends Component {
       <div style={{ marginTop: 10 }}>
         <Grid container>
           <Grid item xs={12}>
-            <Grid container spacing={1}>
+            <Grid container>
               <Grid item xs={12}>
                 <Scards
                   image={logo}

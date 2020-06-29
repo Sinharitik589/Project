@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Container } from "@material-ui/core";
 import Cards from "./Cards";
+
 import logo from "../img/Kobo360.png";
 
 class Footer extends Component {
@@ -9,10 +10,12 @@ class Footer extends Component {
       <div
         style={{
           marginLeft: 0,
-          width: "100vw",
+          marginRight: 0,
+          marginTop: 40,
+
           backgroundColor: "grey",
-          paddingTop: 25,
-          paddingBottom: 25,
+
+          padding: 15,
         }}
       >
         <Container>

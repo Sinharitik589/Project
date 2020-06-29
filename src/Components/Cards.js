@@ -5,16 +5,34 @@ import { Paper, Hidden } from "@material-ui/core";
 const Cards = (props) => {
   return (
     <div>
-      <Paper elevation={3}>
-        <div style={{ height: 100 }}>
-          <div className="cards">
-            <div style={{ flex: 1 }}>
-              <img src={props.image} alt="logo" style={{ height: 100 }} />
-            </div>
-            <div style={{ flex: 6 }}>
-              <h3>{props.post}</h3>
-              <h4>{props.company}</h4>
-            </div>
+      <Paper variant="outlined">
+        <div
+          className="cards"
+          style={{
+            height: 70,
+            paddingTop: 0,
+            paddingLeft: 10,
+            paddingBottom: 15,
+          }}
+        >
+          <div
+            style={{
+              flex: 1,
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
+            <img
+              src={props.image}
+              style={{ height: 45, marginTop: 15, marginBottom: 15 }}
+            />
+          </div>
+          <div style={{ flex: 6 }}>
+            <h3>{props.post}</h3>
+            <h5 style={{ fontWeight: "lighter", marginTop: 0 }}>
+              {props.company}
+            </h5>
           </div>
         </div>
       </Paper>
