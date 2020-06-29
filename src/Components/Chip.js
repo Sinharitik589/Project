@@ -21,15 +21,15 @@ const Chip = (props) => {
       <Hidden only={["lg", "md", "sm", "xl"]}>
         <div
           style={{
-            padding: 9,
+            padding: 11,
             borderRadius: 10,
-            backgroundColor: "#D3D3D3",
+            backgroundColor: "#ececec",
             marginRight: 15,
             marginBottom: 15,
             whiteSpace: "nowrap",
           }}
         >
-          <div style={{ fontFamily: "'Roboto', sans-serif", fontSize: 15 }}>
+          <div style={{ fontFamily: "'Roboto', sans-serif", fontSize: 18 }}>
             {props.label}
           </div>
         </div>
