@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Hidden, Divider, Container } from "@material-ui/core";
-import Header from "./Components/Header";
 import Main from "./Components/Main";
 import Footer from "./Components/Footer";
 import Sheader from "./Components/Sheader";
@@ -13,18 +12,19 @@ class App extends Component {
       <div>
         <Hidden only={"xs"}>
           <Container>
-            <Header />
+            <Sheader />
             <Main />
-            <br />
-            <Divider />
           </Container>
-          <br />
+
           <Footer />
         </Hidden>
         <Hidden only={["lg", "md", "sm", "xl"]}>
           <Sheader />
           <Description />
+          <br />
           <Buttons />
+          <Divider />
+          <br />
           <Sfooter />
         </Hidden>
       </div>

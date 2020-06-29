@@ -5,7 +5,7 @@ class Description extends Component {
   render() {
     return (
       <div>
-        <Typography variant="h4" gutterBottom>
+        <Typography variant="h4" gutterBottom style={{ fontWeight: "lighter" }}>
           Nigeria
         </Typography>
         <Divider />
@@ -14,7 +14,11 @@ class Description extends Component {
           gutterBottom
           align="justify"
           paragraph
-          style={{ fontSize: 20 }}
+          style={{
+            fontSize: 20,
+            marginTop: 25,
+            fontFamily: "'Roboto', sans-serif",
+          }}
         >
           Kobo360, is a privately owned, pan-african technology company
           disrupting and leading African third-party logistics industry. Through

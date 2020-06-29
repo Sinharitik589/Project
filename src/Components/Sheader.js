@@ -7,14 +7,21 @@ class Sheader extends Component {
     return (
       <div>
         <div className="header_logo">
-          <img src={logo} style={{ height: 150 }} />
+          <img src={logo} alt="logo" style={{ height: 150 }} />
         </div>
-        <div style={{ marginTop: 0, marginLeft: 30 }}>
+        <div
+          style={{
+            marginTop: 0,
+            display: "flex",
+            justifyContent: "center",
+            marginBottom: 20,
+          }}
+        >
           <Typography
             variant="h2"
             component="h3"
             gutterBottom
-            style={{ fontWeight: "bold" }}
+            style={{ fontWeight: "normal" }}
           >
             KOBO 360
           </Typography>

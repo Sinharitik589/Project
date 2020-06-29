@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Card, Paper, Typography } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
 import Description from "./Description";
 import Buttons from "./Buttons";
 

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Divider } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
 import Scards from "./Scards";
 import logo from "../img/Kobo360.png";
 
@@ -13,7 +13,7 @@ class Sfooter extends Component {
               <Grid item xs={12}>
                 <Scards
                   image={logo}
-                  post="Supply chain Intern"
+                  post="Supply chain Intern "
                   company="Kobo360"
                 />
               </Grid>

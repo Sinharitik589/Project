@@ -1,19 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
-import { Button, Paper, Hidden, Grid } from "@material-ui/core";
+import { Button, Paper, Hidden } from "@material-ui/core";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 const useStyles = makeStyles((theme) => ({
   sbutton1: {
     margin: 10,
-  },
-
-  buttons: {
-    paddingRight: 52,
-  },
-  button1: {
-    paddingRight: 37,
   },
 }));
 
@@ -22,7 +15,7 @@ const Buttons = () => {
 
   return (
     <div style={{ marginTop: 30, marginBottom: 30 }}>
-      <Hidden /* only={["lg", "md", "sm", "xl"]} */>
+      <Hidden>
         <Paper elevation={4}>
           <div
             style={{
@@ -64,39 +57,6 @@ const Buttons = () => {
           </div>
         </Paper>
       </Hidden>
-      {/* <Hidden only={["xs"]}>
-        <Paper elevation={4}>
-          <div style={{ padding: 10 }}>
-            <div style={{ padding: 10, marginLeft: 20 }}>
-              <Button variant="outlined" color="primary" size="large">
-                Get Employee Refferal
-              </Button>
-            </div>
-            <div style={{ padding: 10, marginLeft: 20 }}>
-              <Button
-                variant="contained"
-                size="large"
-                startIcon={<WhatsAppIcon />}
-                color="secondary"
-                className={classes.button1}
-              >
-                Share on whatsapp
-              </Button>
-            </div>
-            <div style={{ padding: 10, marginLeft: 20 }}>
-              <Button
-                variant="contained"
-                color="primary"
-                size="large"
-                className={classes.buttons}
-                startIcon={<LinkedInIcon />}
-              >
-                Share on Linkedin
-              </Button>
-            </div>
-          </div>
-        </Paper>
-      </Hidden> */}
     </div>
   );
 };
