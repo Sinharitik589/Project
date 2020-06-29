@@ -9,14 +9,7 @@ class Sheader extends Component {
         <div className="header_logo">
           <img src={logo} alt="logo" style={{ height: 150 }} />
         </div>
-        <div
-          style={{
-            marginTop: 0,
-            display: "flex",
-            justifyContent: "center",
-            marginBottom: 20,
-          }}
-        >
+        <div className="header">
           <Typography
             variant="h2"
             component="h3"

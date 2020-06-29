@@ -7,34 +7,26 @@ import logo from "../img/Kobo360.png";
 class Footer extends Component {
   render() {
     return (
-      <div
-        style={{
-          marginLeft: 0,
-          marginRight: 0,
-          marginTop: 40,
-          padding: 8,
-          backgroundColor: "#D3D3D3",
-        }}
-      >
-        <Container disableGutters>
+      <div className="footer">
+        <Container>
           <Grid container>
             <Grid item sm={12}>
-              <Grid container spacing={1}>
-                <Grid item xl={6} sm={4} lg={3}>
+              <Grid container spacing={2}>
+                <Grid item md={3} sm={6}>
                   <Cards
                     image={logo}
                     post="Supply chain Intern"
                     company="Kobo360"
                   />
                 </Grid>
-                <Grid item xl={6} sm={4} lg={3}>
+                <Grid item md={3} sm={6}>
                   <Cards
                     image={logo}
                     post="Supply chain Intern"
                     company="Kobo360"
                   />
                 </Grid>
-                <Grid item xl={6} sm={4} lg={3}>
+                <Grid item md={3} sm={6}>
                   <Cards
                     image={logo}
                     post="Supply chain Intern"
@@ -42,14 +34,14 @@ class Footer extends Component {
                   />
                 </Grid>
 
-                <Grid item xl={6} sm={4} lg={3}>
+                <Grid item md={3} sm={6}>
                   <Cards
                     image={logo}
                     post="Supply chain Intern"
                     company="Kobo360"
                   />
                 </Grid>
-                <Grid item xl={6} sm={4} lg={3}>
+                <Grid item md={3} sm={6}>
                   <Cards
                     image={logo}
                     post="Supply chain Intern"

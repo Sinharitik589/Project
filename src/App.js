@@ -10,7 +10,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Hidden only={"xs"}>
+        <Hidden only={["xs"]}>
           <Container>
             <Sheader />
             <Main />
@@ -18,15 +18,14 @@ class App extends Component {
 
           <Footer />
         </Hidden>
-        <Hidden only={["lg", "md", "sm", "xl"]}>
+        <Hidden only={["lg", "md", "sm"]}>
           <Container>
             <Sheader />
             <Description />
             <br />
             <Buttons />
           </Container>
-          <Divider />
-          <br />
+
           <Sfooter />
         </Hidden>
       </div>

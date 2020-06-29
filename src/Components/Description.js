@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Divider, Typography, Container } from "@material-ui/core";
+import { Divider, Typography } from "@material-ui/core";
 import Chip from "./Chip";
 
 class Description extends Component {
@@ -46,7 +46,7 @@ class Description extends Component {
           <br />
           <br />
           <span style={{ fontWeight: "bolder", fontSize: 24 }}>
-            Tech Stack:
+            Tech Stack :
           </span>
           <br />
           <br />
