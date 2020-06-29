@@ -11,7 +11,8 @@ class Footer extends Component {
           marginLeft: 0,
           width: "100vw",
           backgroundColor: "grey",
-          paddingTop: 10,
+          paddingTop: 25,
+          paddingBottom: 25,
         }}
       >
         <Container>
