@@ -1,20 +1,21 @@
 import React, { Component } from "react";
-import { Divider, Typography, Chip, Grid } from "@material-ui/core";
+import { Divider, Typography } from "@material-ui/core";
 
 class Description extends Component {
   render() {
     return (
       <div>
-        <h2
-          style={{
-            marginLeft: 20,
-            marginTop: 30,
-          }}
-        >
-          NIGERIA
-        </h2>
+        <Typography variant="h4" gutterBottom>
+          Nigeria
+        </Typography>
         <Divider />
-        <p style={{ fontSize: 20, fontStyle: "italic" }}>
+        <Typography
+          variant="body1"
+          gutterBottom
+          align="justify"
+          paragraph
+          style={{ fontSize: 20 }}
+        >
           Kobo360, is a privately owned, pan-african technology company
           disrupting and leading African third-party logistics industry. Through
           an all-in-one robust platform that instantly connects cargo owners to
@@ -27,7 +28,7 @@ class Description extends Component {
           with buyers all over the world. The marketplace will effectively
           eliminate the high cost of middlemen for smallholder farmers and
           significantly increase their profits.
-        </p>
+        </Typography>
       </div>
     );
   }

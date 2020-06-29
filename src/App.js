@@ -17,8 +17,9 @@ class App extends Component {
             <Main />
             <br />
             <Divider />
-            <Footer />
           </Container>
+          <br />
+          <Footer />
         </Hidden>
         <Hidden only={["lg", "md", "sm", "xl"]}>
           <Sheader />

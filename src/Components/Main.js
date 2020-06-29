@@ -14,10 +14,9 @@ class Main extends Component {
           <Grid item xs={4}>
             <Grid container>
               <Grid item xs={1} />
-              <Grid item xs={10}>
+              <Grid item xs={11} wrap>
                 <Buttons />
               </Grid>
-              <Grid item xs={1} />
             </Grid>
           </Grid>
         </Grid>

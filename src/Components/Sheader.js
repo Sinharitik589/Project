@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { Typography } from "@material-ui/core";
 import "../App.css";
 import logo from "../img/Kobo360.png";
 class Sheader extends Component {
@@ -9,12 +9,15 @@ class Sheader extends Component {
         <div className="header_logo">
           <img src={logo} style={{ height: 150 }} />
         </div>
-        <div style={{ marginTop: 0 }}>
-          <h1
-            style={{ textAlign: "center", fontWeight: "bolder", fontSize: 40 }}
+        <div style={{ marginTop: 0, marginLeft: 30 }}>
+          <Typography
+            variant="h2"
+            component="h3"
+            gutterBottom
+            style={{ fontWeight: "bold" }}
           >
-            Kobo 360
-          </h1>
+            KOBO 360
+          </Typography>
         </div>
       </div>
     );
