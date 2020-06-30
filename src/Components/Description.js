@@ -14,7 +14,7 @@ class Description extends Component {
           Nigeria
         </Typography>
         <Divider />
-        <div className="main">
+        <p className="main">
           Kobo360, is a privately owned, pan-african technology company
           disrupting and leading African third-party logistics industry.
           <br />
@@ -46,7 +46,7 @@ class Description extends Component {
             <Chip label="Docker" />
             <Chip label="Open-Souce Development" />
           </div>
-        </div>
+        </p>
       </div>
     );
   }
