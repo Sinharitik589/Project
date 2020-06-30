@@ -12,21 +12,21 @@ class Footer extends Component {
           <Grid container>
             <Grid item sm={12}>
               <Grid container spacing={2}>
-                <Grid item md={3} sm={6}>
+                <Grid item md={4} sm={6}>
                   <Cards
                     image={logo}
                     post="Supply chain Intern"
                     company="Kobo360"
                   />
                 </Grid>
-                <Grid item md={3} sm={6}>
+                <Grid item md={4} sm={6}>
                   <Cards
                     image={logo}
-                    post="Supply chain Intern"
+                    post="Software development Internship"
                     company="Kobo360"
                   />
                 </Grid>
-                <Grid item md={3} sm={6}>
+                <Grid item md={4} sm={6}>
                   <Cards
                     image={logo}
                     post="Supply chain Intern"
@@ -34,14 +34,14 @@ class Footer extends Component {
                   />
                 </Grid>
 
-                <Grid item md={3} sm={6}>
+                <Grid item md={4} sm={6}>
                   <Cards
                     image={logo}
                     post="Supply chain Intern"
                     company="Kobo360"
                   />
                 </Grid>
-                <Grid item md={3} sm={6}>
+                <Grid item md={4} sm={6}>
                   <Cards
                     image={logo}
                     post="Supply chain Intern"

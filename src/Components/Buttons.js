@@ -28,8 +28,8 @@ const Buttons = () => {
       <Paper elevation={5}>
         <div className="button_container">
           <Button
-            variant="contained"
-            color="secondary"
+            variant="outlined"
+            color="primary"
             size="large"
             className={classes.sbutton1}
           >

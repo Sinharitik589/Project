@@ -10,17 +10,7 @@ class Sheader extends Component {
           <img src={logo} alt="logo" style={{ height: 150 }} />
         </div>
         <div className="header">
-          <Typography
-            variant="h2"
-            component="h3"
-            gutterBottom
-            style={{
-              fontWeight: "bold",
-              fontFamily: "'Roboto', sans-serif",
-            }}
-          >
-            Kobo 360
-          </Typography>
+          <div className="heading">Kobo 360</div>
         </div>
       </div>
     );

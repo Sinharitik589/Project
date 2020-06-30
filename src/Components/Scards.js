@@ -8,7 +8,7 @@ const Scards = (props) => {
           <img src={props.image} className="small_cards" />
         </div>
         <div className="card_text">
-          <div className="post">{props.post}</div>
+          <div className="spost">{props.post}</div>
           <div className="company">{props.company}</div>
         </div>
       </div>
