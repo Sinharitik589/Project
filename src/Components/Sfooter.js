@@ -7,7 +7,7 @@ class Sfooter extends Component {
   render() {
     return (
       <div style={{ backgroundColor: "rgb(246,244,252)", padding: 10 }}>
-        <div style={{ margin: 10 }}>
+        <div style={{ marginTop: 25, marginBottom: 25 }}>
           <Grid container>
             <Grid item xs={12}>
               <Grid container spacing={5}>
@@ -28,7 +28,7 @@ class Sfooter extends Component {
                 <Grid item xs={12}>
                   <Scards
                     image={logo}
-                    post="Software development Internship"
+                    post="Software Development Internship"
                     company="Kobo360"
                   />
                 </Grid>

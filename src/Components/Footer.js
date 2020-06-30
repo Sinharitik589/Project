@@ -22,7 +22,7 @@ class Footer extends Component {
                 <Grid item md={4} sm={6}>
                   <Cards
                     image={logo}
-                    post="Software development Internship"
+                    post="Software Development Internship"
                     company="Kobo360"
                   />
                 </Grid>

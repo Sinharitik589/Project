@@ -21,7 +21,7 @@
   flex-direction: row;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  height: 140px;
+  height: 120px;
   background-color: white;
   border-radius: 15px;
 }
@@ -42,8 +42,8 @@
 }
 
 .small_cards {
-  margin: 20px 6px 20px 0px;
-  height: 100px;
+  margin: 20px 0px 20px 0px;
+  height: 80px;
   border-radius: 60px;
 }
 .large_cards {
@@ -53,6 +53,13 @@
 }
 .card_text {
   flex: 6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.scard_text {
+  flex: 8;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -68,13 +75,19 @@
 .spost {
   font-family: "Roboto", sans-serif;
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
 }
 .company {
   font-family: "Roboto", sans-serif;
 }
 .card_container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.scard_container {
   flex: 1;
   display: flex;
   flex-direction: column;
