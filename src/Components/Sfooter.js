@@ -7,7 +7,7 @@ class Sfooter extends Component {
   render() {
     return (
       <div style={{ backgroundColor: "rgb(246,244,252)", padding: 10 }}>
-        <div style={{ margin: 20 }}>
+        <div style={{ margin: 10 }}>
           <Grid container>
             <Grid item xs={12}>
               <Grid container spacing={5}>
