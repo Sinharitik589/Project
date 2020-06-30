@@ -10,7 +10,7 @@
   transition: 0.3s;
   height: 100px;
   padding-left: 15;
-  background-color: #f1f5fd;
+  background-color: white;
   border-radius: 15px;
 }
 .cards:hover {
@@ -21,8 +21,8 @@
   flex-direction: row;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  height: 130px;
-  background-color: #f1f5fd;
+  height: 160px;
+  background-color: white;
   border-radius: 15px;
 }
 .scards:hover {
@@ -42,11 +42,13 @@
 }
 
 .small_cards {
-  margin: 20px 6px 20px 8px;
-  height: 90px;
+  margin: 20px 6px 20px 6px;
+  height: 120px;
+  border-radius: 60px;
 }
 .large_cards {
   margin: 15px;
+  border-radius: 40px;
   height: 70px;
 }
 .card_text {
@@ -82,7 +84,7 @@
 .footer {
   margin-top: 40px;
   padding: 40px 15px 40px 15px;
-  background-color: #6495ed;
+  background-color: rgb(246, 244, 252);
 }
 
 .header {

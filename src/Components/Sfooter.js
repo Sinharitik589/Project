@@ -6,7 +6,7 @@ import logo from "../img/Kobo360.png";
 class Sfooter extends Component {
   render() {
     return (
-      <div style={{ backgroundColor: "#6495ed", padding: 10 }}>
+      <div style={{ backgroundColor: "rgb(246,244,252)", padding: 10 }}>
         <div style={{ margin: 25 }}>
           <Grid container>
             <Grid item xs={12}>
