@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import * as image from "../img";
+import logo from "../img/Kobo360.png";
 import { Hidden, Button } from "@material-ui/core";
 
 const Logo = () => {
   const { fb, airbnb, ibm, google, mongo, react } = image;
   var count = 0;
   var s = 0;
-  var y = [mongo, react, google, fb, airbnb];
-  var x = [fb, airbnb, mongo];
+  var x = [mongo, react, google, fb, airbnb, logo];
+  var y = [fb, airbnb, mongo];
   const fadeOut = () => {
     let interval = setInterval(function () {
       let img = document.getElementById(`${count}`);
@@ -32,7 +33,7 @@ const Logo = () => {
           fadeIn();
         }
       }
-    }, 500);
+    }, 20);
   };
   const fadeIn = () => {
     console.log(count);
