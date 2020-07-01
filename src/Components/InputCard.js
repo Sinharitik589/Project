@@ -3,7 +3,7 @@ import { Paper, Button } from "@material-ui/core";
 class InputCard extends Component {
   render() {
     return (
-      <div className="input_card">
+      <div className={this.props.label}>
         <div className="input_name">Full Name</div>
         <input className="input_field" placeholder="John"></input>
         <div className="input_name">Work Email Address</div>
