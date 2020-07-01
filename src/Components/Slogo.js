@@ -66,8 +66,8 @@ const Slogo = () => {
       document.getElementById(`${count}`).style.opacity = opacity - 1;
 
       if (opacity <= 0) {
-        document.getElementById(`${count}`).src = `${x[s]}`;
         clearInterval(interval);
+        document.getElementById(`${count}`).src = `${x[s]}`;
 
         fadeIn();
       }
