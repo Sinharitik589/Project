@@ -2,7 +2,7 @@ import React from "react";
 import * as image from "../img";
 import { Hidden } from "@material-ui/core";
 
-const Logo = () => {
+const Slogo = () => {
   const {
     first,
     second,
@@ -50,7 +50,7 @@ const Logo = () => {
     twenty,
     twentyone,
   ];
-  var y = [first, second, third, fourth, fifth, sixth, seventh, eighth, ninth];
+  var y = [first, second, third, fourth, fifth, sixth, seventh, eighth];
   var count = 0;
   var change_s = y.length;
   var change = 0;
@@ -123,7 +123,7 @@ const Logo = () => {
 
     z = y.map((img, index) => {
       let z = (
-        <div className="image_wrap">
+        <div className="simage_wrap">
           <img className="logo_image" src={img} id={index} />
         </div>
       );
@@ -146,4 +146,4 @@ const Logo = () => {
   );
 };
 
-export default Logo;
+export default Slogo;

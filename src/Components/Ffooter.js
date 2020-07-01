@@ -1,12 +1,11 @@
 import React from "react";
-import { Container } from "@material-ui/core";
 import logo from "../img/Kobo360.png";
 
 const Ffooter = (props) => {
   return (
     <div className="f_footer">
-      <div className="header_logo">
-        <img style={{ height: 100, borderRadius: 60 }} src={logo} />
+      {/* <div className="header_logo">
+        
       </div>
       <div className={props.label}>
         <div className={props.tlabel}>
@@ -130,6 +129,92 @@ const Ffooter = (props) => {
         </div>
 
         <div className={props.tlabel}></div>
+      </div> */}
+      <div className="f_footercontent">
+        <img
+          style={{ maxHeight: 70, maxWidth: 70, borderRadius: 60 }}
+          src={logo}
+        />
+        <ul className="f_footerul">
+          <li className="f_footerli_header">EXPLORE</li>
+          <li className="f_footerli">
+            <a href="#" className="link">
+              Communities
+            </a>
+          </li>
+          <li className="f_footerli">
+            <a href="#" className="link">
+              Students
+            </a>
+          </li>
+          <li className="f_footerli">
+            <a href="#" className="link">
+              Recruits
+            </a>
+          </li>
+          <li className="f_footerli">
+            <a href="#" className="link">
+              Discover
+            </a>
+          </li>
+        </ul>
+        <ul className="f_footerul">
+          <li className="f_footerli_header">COMPANY</li>
+
+          <li className="f_footerli">
+            <a href="#" className="link">
+              Team
+            </a>
+          </li>
+          <li className="f_footerli">
+            <a href="#" className="link">
+              Careers
+            </a>
+          </li>
+        </ul>
+        <ul className="f_footerul">
+          <li className="f_footerli_header">FOLLOW</li>
+
+          <li className="f_footerli">
+            <a href="#" className="link">
+              Instagram
+            </a>
+          </li>
+          <li className="f_footerli">
+            <a href="#" className="link">
+              Facebook
+            </a>
+          </li>
+          <li className="f_footerli">
+            <a href="#" className="link">
+              LinkedIn
+            </a>
+          </li>
+        </ul>
+        <ul className="f_footerul">
+          <li className="f_footerli_header">CONTACT</li>
+          <li className="f_footerli">
+            General Inquiries
+            <br />
+            <a href="#" className="link" style={{ color: "#1a73e8" }}>
+              info@jumpstart.me
+            </a>
+          </li>
+          <li className="f_footerli">
+            New Business
+            <br />
+            <a href="#" className="link" style={{ color: "#1a73e8" }}>
+              sales@jumpstart.me
+            </a>
+          </li>
+          <li className="f_footerli">
+            Press Inquiries
+            <br />
+            <a href="#" className="link" style={{ color: "#1a73e8" }}>
+              press@jumpstart.me
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   );
