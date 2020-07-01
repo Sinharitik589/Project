@@ -1,0 +1,12 @@
+import Ibm from "./ibm.jpg";
+import Airbnb from "./airbnb.jpg";
+import Fb from "./fb.png";
+import Google from "./google.png";
+import Mongo from "./mongo.jpg";
+import React_logo from "./react-logo-825x510.jpg";
+export const ibm = Ibm;
+export const airbnb = Airbnb;
+export const fb = Fb;
+export const google = Google;
+export const mongo = Mongo;
+export const react = React_logo;
