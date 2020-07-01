@@ -230,7 +230,14 @@ body {
   margin: 40px 40px 40px 45px;
 } */
 .footer_content {
+  margin: 7%;
+  display: flex;
+  flex-direction: column;
+}
+.footer_contents {
   margin: 40px 40px 40px 45px;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer_containers {
@@ -241,4 +248,21 @@ body {
 .footer_container {
   display: flex;
   flex-wrap: wrap;
+  margin: 10%;
+}
+
+.link {
+  color: gray;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.linkh {
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  margin-bottom: 40px;
+  color: black;
 }

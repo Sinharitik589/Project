@@ -9,31 +9,127 @@ const Ffooter = (props) => {
         <img style={{ height: 100, borderRadius: 60 }} src={logo} />
       </div>
       <div className={props.label}>
-        <div className="footer_content">
-          <h3>EXPLORE</h3>
-          <h4>Communites</h4>
-          <h4>Students</h4>
-          <h4>Recruits</h4>
-          <h4>Discover</h4>
+        <div className={props.tlabel}>
+          <a href="#" className="linkh">
+            EXPLORE
+          </a>
+          <a href="#" className="link">
+            Communities
+          </a>
+          <a href="#" className="link">
+            Students
+          </a>
+          <a href="#" className="link">
+            Recruits
+          </a>
+          <a href="#" className="link">
+            Discover
+          </a>
         </div>
-        <div className="footer_content">
-          <h3>COMPANY</h3>
-          <h4>Teams</h4>
-          <h4>Careers</h4>
+        <div className={props.tlabel}>
+          <a href="#" className="linkh">
+            COMPANY
+          </a>
+          <a href="#" className="link">
+            Teams
+          </a>
+          <a href="#" className="link">
+            Careers
+          </a>
         </div>
-        <div className="footer_content">
-          <h3>Follow</h3>
-          <h4>Instagram</h4>
-          <h4>Facebook</h4>
-          <h4>LinkedIn</h4>
+        <div className={props.tlabel}>
+          <a href="#" className="linkh">
+            FOLLOW
+          </a>
+          <a href="#" className="link">
+            Instagram
+          </a>
+          <a href="#" className="link">
+            Facebook
+          </a>
+          <a href="#" className="link">
+            LinkedIn
+          </a>
         </div>
-        <div className="footer_content">
-          <h3>EXPLORE</h3>
-          <h4>Communites</h4>
-          <h4>Students</h4>
-          <h4>Recruits</h4>
-          <h4>Discover</h4>
+        <div className={props.tlabel}>
+          <a href="#" className="linkh">
+            CONTACT
+          </a>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              marginBottom: 30,
+            }}
+          >
+            <div
+              style={{
+                fontSize: 16,
+                textDecoration: "none",
+                marginBottom: 5,
+                color: "black",
+              }}
+            >
+              General Inquiries
+            </div>
+            <a
+              href="#"
+              style={{ fontSize: 16, textDecoration: "none", color: "blue" }}
+            >
+              ritik@gmail.com
+            </a>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              marginBottom: 30,
+            }}
+          >
+            <div
+              style={{
+                fontSize: 16,
+                textDecoration: "none",
+                marginBottom: 5,
+                color: "black",
+              }}
+            >
+              General Inquiries
+            </div>
+            <a
+              href="#"
+              style={{ fontSize: 16, textDecoration: "none", color: "blue" }}
+            >
+              ritik@gmail.com
+            </a>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              marginBottom: 30,
+            }}
+          >
+            <div
+              style={{
+                fontSize: 16,
+                textDecoration: "none",
+                marginBottom: 5,
+                color: "black",
+              }}
+            >
+              General Inquiries
+            </div>
+            <a
+              href="#"
+              style={{ fontSize: 16, textDecoration: "none", color: "blue" }}
+            >
+              ritik@gmail.com
+            </a>
+          </div>
         </div>
+
+        <div className={props.tlabel}></div>
       </div>
     </div>
   );
