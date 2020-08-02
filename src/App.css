@@ -207,6 +207,8 @@ input:focus,
 textarea:focus,
 select:focus {
   outline: none;
+  border-color: #2dc5a1;
+  border-width: 2px;
 }
 
 .input_field {
@@ -214,8 +216,9 @@ select:focus {
   border-width: 1px;
   border-style: solid;
   border-color: rgb(214, 214, 214);
-  padding: 13px;
-
+  padding: 7px;
+  font-size: 0.875rem;
+  color: #030303;
   margin: 0px 0px 20px 0px;
 }
 .sinput_field {

@@ -33,7 +33,7 @@ class Apps extends Component {
           <Slogo />
         </Hidden>
         <Hidden only={["xs"]}>
-          <div className="main_container">
+          <div className="container">
             <Grid container>
               <Grid item sm={5}>
                 <div>

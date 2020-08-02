@@ -11,10 +11,10 @@ class App extends Component {
     return (
       <div>
         <Hidden only={["xs"]}>
-          <Container>
+          <div className="container">
             <Sheader />
             <Main />
-          </Container>
+          </div>
 
           <Footer />
         </Hidden>
